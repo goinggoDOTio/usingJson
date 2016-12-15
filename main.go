@@ -27,7 +27,7 @@ func main() {
 	fmt.Printf("%T \n", bs)
 	fmt.Println(string(bs))
 
-	// using json unmarshalfmt.Println("---USING JSON UNMARSHALL---")
+	// using json unmarshal
 	fmt.Println("---JSON UNMARSHALL---")
 	var p2 Person
 	fmt.Println(p2.First)
